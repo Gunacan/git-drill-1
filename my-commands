@@ -1,0 +1,15 @@
+  388  git init
+  389  touch readme.md index.html style.css
+  390  git remote add origin https://github.com/Gunacan/git-drill-1.git
+  391  git add index.html
+  392  git status
+  393  git commit -m "staged index.html"
+  394  vim readme.md
+  395  git add -A
+  396  git reset
+  397  touch app.js 
+  398  mv ~/Desktop/giphy.gif .
+  399  git add -A
+  400  git commit -m "When I think about the drills"
+  401  git log
+  402  git push -u origin master
